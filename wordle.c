@@ -19,7 +19,7 @@ int numAppearance(char a, char *ans);
 int main(){
     char* ANSWER;
     ANSWER = genAnswer();
-    printf("%s\n", ANSWER);
+    //printf("%s\n", ANSWER);
     playGame(ANSWER);
     return 0;
 }
